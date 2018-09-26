@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette|Didact+Gothic" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <title>Marco Crank | Apprentice Developer</title>
 </head>
@@ -21,7 +23,10 @@
             <ul id="navLinks">
                 <li><a id="navToBio" class="navBarButtons">Bio</a></li>
                 <li><a id="navToProjects" class="navBarButtons">Projects</a></li>
-                <li><a id=" navToTech" class="navBarButtons">Technologies</a></li>
+                <li><a id="navToTech" class="navBarButtons">Technologies</a></li>
+                <li class="social"><a href="https://twitter.com/MCrank" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li class="social"><a href="https://github.com/MCrank" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li class="social"><a href="https://www.linkedin.com/in/mcrank/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
         </nav>
     </div>
@@ -29,7 +34,7 @@
 
     <!-- Primary View -->
     <h1 id="myName">Marco E. L. Crank</h1>
-    <div class="fullPage" id="bioPage">
+    <div class="fullPage navToBio" id="bioPage" style="display: block">
         <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
         <p>Accomplished DevOps Engineer, Infrastructure Architect, and Cloud Engineer with 20+ years of solid career
             progression.
@@ -58,7 +63,7 @@
             that
             not only helps each other grow but also challenges each other to keep your skills sharp.</p>
     </div>
-    <div class="fullPage" id="technologiesPage">
+    <div class="fullPage navToTech" id="technologiesPage" style="display: none">
         <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
         <ul>
             <li>Git</li>
@@ -69,7 +74,7 @@
 
         </ul>
     </div>
-    <div class="fullPage" id="projectsPage"></div>
+    <div class="fullPage navToProjects" id="projectsPage" style="display: none"></div>
     <!-- End Primary View -->
 
     <!-- Footer -->
@@ -84,6 +89,12 @@
     </footer>
     <!-- End Footer -->
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script src="project.js"></script>
 </body>
 

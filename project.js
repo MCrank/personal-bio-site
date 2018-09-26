@@ -42,12 +42,22 @@ const createProjectCards = () => {
 
 // Load the proper page
 const pageControl = () => {
-  console.log('You are in the page control function');
+  // Get Id of element clicked
+  const srcElementId = event.srcElement.id;
+  const contentPages = document.getElementsByClassName('fullPage');
+  for (let i = 0; i < contentPages.length; i++) {
+    const element = contentPages[i];
+    // If the element has a class that matches the Nav Button link show it elese hide the rest
+    if (element.classList.contains(srcElementId)) {
+      element.style.display = 'unset';
+    } else {
+      element.style.display = 'none';
+    }
+  }
 };
 
 const registerEvents = () => {
   const navButtons = document.getElementsByClassName('navBarButtons');
-  console.log(navButtons);
   for (let i = 0; i < navButtons.length; i++) {
     const element = navButtons[i];
     document.getElementById(element.id).addEventListener('click', pageControl);
