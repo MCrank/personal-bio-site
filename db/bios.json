@@ -1,0 +1,16 @@
+{
+  "bios": [
+    {
+      "title": "who",
+      "description": "Accomplished DevOps Engineer, Infrastructure Architect, and Cloud Engineer with 20+ years of solid career progression. Skilled in the building, deployment, and testing of software while overseeing multi-member teams in an Agile setting. Recognized by upper management for building strong relationships across enterprise-wide organizations and departments to bolster cooperation across team boundaries. Extraordinary problem solving and diagnostic testing skills for root cause analysis stemming from an early career in the United States Navy. Holds Strong experience in Microsoft technologies and supplementary work in open source Linux solutions."
+    },
+    {
+      "title": "why",
+      "description": "I am pursuing classes in full stack development to both boost my career opportunities and to ultimately open more avenues for employment. With the explosion of DevOps in the industry software developers are no longer just developers and Operations are not just infrastructure. They are melding together and to stay competitive you will have to know a little or a lot of both."
+    },
+    {
+      "title": "what",
+      "description": "I get great satisfaction out of development by building automation tools, applications, and solutions that help make peoples lives better, processes more efficient, or drive costs down. I also love working on a team that not only helps each other grow but also challenges each other to keep your skills sharp."
+    }
+  ]
+}
