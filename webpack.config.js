@@ -12,6 +12,7 @@ const extractScss = new ExtractTextPlugin({
 });
 
 module.exports = {
+  devtool: 'source-map',
   entry: {
     bundle: './src/index.js'
   },
@@ -40,7 +41,18 @@ module.exports = {
             loader: 'url-loader',
             options: {
               limit: 8000, // Convert images < 8kb to base64 strings
-              name: 'images/[hash]-[name].[ext]'
+              name: 'img/[hash]-[name].[ext]'
+            }
+          }
+        ]
+      },
+      {
+        test: /\.mp4$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'img/[name].[ext]'
             }
           }
         ]
