@@ -11,14 +11,14 @@
 <body>
   <!-- NavBar -->
   <div id="nav-wrapper">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex-column flex-md-row bd-navbar fixed-top">
       <!-- <div class="container"> -->
       <a class="navbar-brand" href="#">Marco Crank</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="nav-links d-flex justify-content-end">
+      <div class="nav-links">
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -36,15 +36,37 @@
           </ul>
         </div>
       </div>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <li class="nav-item">
+          <a class="nav-link p-2" href="https://github.com/MCrank" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2" href="https://twitter.com/MCrank" target="_blank" rel="noopener" aria-label="Twitter">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2" href="https://www.linkedin.com/in/mcrank/" target="_blank" rel="noopener" aria-label="Slack">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+      <a class="btn btn-outline-secondary btn-resume d-none d-lg-inline-block mb-3 mv-md-0 ml-md-3" href="#">Résumé</a>
       <!-- </div> -->
     </nav>
-
   </div>
 
+
+
   <!-- Primary View -->
-  <h1 id="myName">Marco E. L. Crank</h1>
+  <div id="intro">
+    <h1 id="myName">Marco E. L. Crank</h1>
+  </div>
   <div class="" id="bioPage">
     <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+    <p>Hello</p>
   </div>
 
   <!-- Technologies -->

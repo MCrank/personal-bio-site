@@ -1,7 +1,6 @@
 import bioData from '../data/bioData';
 
 const bioStringBuilder = (bioDataArr) => {
-  // newString = '';
   console.log(bioDataArr);
 };
 
