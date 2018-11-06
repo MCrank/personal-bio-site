@@ -31,3 +31,17 @@
 video {
   object-fit: contain;
 }
+
+.hero {
+  height: 100vh;
+  min-height: 600px;
+  padding: 125px 0;
+}
+
+.hero .container {
+  color: rgb(33, 37, 41);
+}
+
+.bg-texture {
+  background: rgba(0, 0, 0, 0.3);
+}
