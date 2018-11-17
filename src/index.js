@@ -1,19 +1,15 @@
 import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
-// import { library, dom } from '@fortawesome/fontawesome-svg-core';
-// import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 import bckgrndVideo from './img/clouds-small.mp4';
+import headShot from './img/marco.jpg';
 import bio from './javascripts/components/bio';
 
-// library.add(faTwitter, faGithub, faLinkedin);
-
 $('#video-bkgrnd').attr('src', bckgrndVideo);
-
+$('#head-shot').attr('src', headShot);
 const initApp = () => {
   bio.getBioData();
 };
-
-// dom.watch();
 
 initApp();

@@ -1,112 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <title>Marco Crank | Apprentice Developer</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-    crossorigin="anonymous">
-  <title>Marco Crank | Apprentice Developer</title>
-</head>
-
-<body>
-
-  <!-- NavBar -->
-  <div id="nav-wrapper">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex-column flex-md-row bd-navbar fixed-top">
-      <a class="navbar-brand" href="#">Marco Crank</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="nav-links">
-        <div class="collapse navbar-collapse" id="navbarColor01">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Technologies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Connect</a>
-            </li>
-          </ul>
+  <body>
+    <!-- NavBar -->
+    <div id="nav-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex-column flex-md-row bd-navbar fixed-top">
+        <a class="navbar-brand" href="#">Marco Crank</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav-links">
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  About
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Technologies</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Connect</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-        <li class="nav-item">
-          <a class="nav-link p-2" href="https://github.com/MCrank" target="_blank" rel="noopener" aria-label="GitHub">
-            <i class="fab fa-github fa-lg"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link p-2" href="https://twitter.com/MCrank" target="_blank" rel="noopener" aria-label="Twitter">
-            <i class="fab fa-twitter fa-lg"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link p-2" href="https://www.linkedin.com/in/mcrank/" target="_blank" rel="noopener" aria-label="Slack">
-            <i class="fab fa-linkedin fa-lg"></i>
-          </a>
-        </li>
-      </ul>
-      <a class="btn btn-outline-secondary btn-resume d-none d-lg-inline-block mb-3 mv-md-0 ml-md-3" href="#">Résumé</a>
-    </nav>
-    <video class="video-background" autoplay loop muted plays-inline>
-      <source src="./img/clouds-small.mp4" id="video-bkgrnd" type="video/mp4">
-    </video>
+        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+          <li class="nav-item">
+            <a class="nav-link p-2" href="https://github.com/MCrank" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2" href="https://twitter.com/MCrank" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2" href="https://www.linkedin.com/in/marcocrank/" target="_blank" rel="noopener" aria-label="Slack"><i class="fab fa-linkedin fa-lg"></i></a>
+          </li>
+        </ul>
+        <a class="btn btn-outline-secondary btn-resume d-none d-lg-inline-block mb-3 mv-md-0 ml-md-3" href="#">Résumé</a>
+      </nav>
+      <video class="video-background" autoplay loop muted plays-inline><source src="./img/clouds-small.mp4" id="video-bkgrnd" type="video/mp4" /></video>
+    </div>
 
     <!-- Hero Section -->
     <section class="hero">
       <div class="container">
         <div class="row">
           <div class="card border-none col-lg-6 col-md-8 col-sm-10 mx-auto bg-texture">
-            <h1>Boo</h1>
+            <div class="card-body text-white text-center py-4">
+              <div class="mb-3"><img src="" alt="Marco Crank" class="brand-logo img-fluid rounded-circle" id="head-shot" /></div>
+              <h2 class="pt-4 text-white">
+                I am Marco Crank,
+                <br />
+                Cloud Automation Engineer
+                <br />
+                &amp
+                <br />
+                Junior Full Stack Developer
+              </h2>
+              <p class="mt-4 lead text-white">I love making beautiful things &amp; meeting new people. I made Candy, Dottedly &amp; Appster themes.</p>
+              <p class="mt-2">
+                <a href="https://twitter.com/MCrank" target="_blank">
+                  <em class="mr-3"></em>
+                  <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://github.com/MCrank" target="_blank">
+                  <em class="mr-3"></em>
+                  <i class="fab fa-github fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/marcocrank" target="_blank">
+                  <em class="mr-3"></em>
+                  <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  </div>
 
+    <!-- Primary View -->
+    <div id="intro"><h1 id="myName">Marco E. L. Crank</h1></div>
+    <div class="" id="bioPage">
+      <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+      <p>Hello</p>
+    </div>
 
+    <!-- Technologies -->
+    <div id="my-tech">
+      <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+      <ul>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
 
-  <!-- Primary View -->
-  <div id="intro">
-    <h1 id="myName">Marco E. L. Crank</h1>
-  </div>
-  <div class="" id="bioPage">
-    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    <p>Hello</p>
-  </div>
-
-  <!-- Technologies -->
-  <div id="my-tech">
-    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-    <ul>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-  </div>
-
-  <!-- Footer -->
-  <footer class="page-footer">
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-    <ul>
-      <li><a href="mailto:marco_mcse@hotmail.com">E-mail<i class="far fa-envelope"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/mcrank/">LinkedIn</a></li>
-      <li><a href="https://twitter.com/MCrank/">Twitter</a></li>
-      <li><a href="https://github.com/MCrank">GitHub</a></li>
-    </ul>
-  </footer>
-
-</body>
-
+    <!-- Footer -->
+    <footer class="page-footer">
+      <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+      <ul>
+        <li>
+          <a href="mailto:marco_mcse@hotmail.com">
+            E-mail
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/mcrank/">LinkedIn</a></li>
+        <li><a href="https://twitter.com/MCrank/">Twitter</a></li>
+        <li><a href="https://github.com/MCrank">GitHub</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
