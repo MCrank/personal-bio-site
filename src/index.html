@@ -13,7 +13,7 @@
     <title>Marco Crank | Apprentice Developer</title>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbarColor01">
     <!-- NavBar -->
     <div id="nav-wrapper">
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex-column flex-md-row bd-navbar fixed-top">
@@ -32,15 +32,11 @@
         <div class="nav-links">
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">
-                  About
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#">Technologies</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Connect</a></li>
+              <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#bio">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#my-tech">Technologies</a></li>
+              <li class="nav-item"><a class="nav-link" href="#my-projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
             </ul>
           </div>
         </div>
@@ -61,14 +57,15 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="container">
         <div class="row">
           <div class="card border-none col-lg-6 col-md-8 col-sm-10 mx-auto bg-texture">
             <div class="card-body text-white text-center py-4">
               <div class="mb-3"><img src="" alt="Marco Crank" class="brand-logo img-fluid rounded-circle" id="head-shot" /></div>
               <h2 class="pt-4 text-white">
-                I am Marco Crank,
+                Marco Crank
+                <hr class="mb-0 border border-white" />
                 <br />
                 Cloud Automation Engineer
                 <br />
@@ -98,11 +95,7 @@
     </section>
 
     <!-- Primary View -->
-    <div id="intro"><h1 id="myName">Marco E. L. Crank</h1></div>
-    <div class="" id="bioPage">
-      <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-      <p>Hello</p>
-    </div>
+    <div id="bio"></div>
 
     <!-- Technologies -->
     <div id="my-tech">
@@ -115,6 +108,11 @@
         <li>JavaScript</li>
       </ul>
     </div>
+
+    <!-- Projects -->
+    <div id="my-projects"></div>
+
+    <div id="connect"></div>
 
     <!-- Footer -->
     <footer class="page-footer">
