@@ -15,21 +15,17 @@ const bioStringBuilder = () => {
       I started my love of computers with a Commodore VIC-20 which continued on to Apple IIe in middle school, followed by a Commodore 64 through high school. Upon graduation from high school I joined the Navy as a Fire Control Technician aboard a nuclear powered attack submarine.
     </p>
     <p class="lead">
-      This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet erat et purus laoreet posuere in at urna. Nulla vel tortor ligula. Duis malesuada, elit ac vulputate bibendum, sem elit congue nulla, quis rutrum purus nunc et enim. Quisque eu varius enim, eget volutpat augue..
     </p>
     <p class="lead">
-      This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet erat et purus laoreet posuere in at urna. Nulla vel tortor ligula. Duis malesuada, elit ac vulputate bibendum, sem elit congue nulla, quis rutrum purus nunc et enim. Quisque eu varius enim, eget volutpat augue.
     </p>
     <p class="lead">
-      This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet erat et purus laoreet posuere in at urna. Nulla vel tortor ligula. Duis malesuada, elit ac vulputate bibendum, sem elit congue nulla, quis rutrum purus nunc et enim. Quisque eu varius enim, eget volutpat augue.
     </p>
     <hr class="my-4" />
     <p>
-      It uses utility classes for typography and spacing to space content out within the larger
-      container.
+      ILorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet erat et purus laoreet posuere in at urna. Nulla vel tortor ligula. Duis malesuada, elit ac vulputate bibendum, sem elit congue nulla, quis rutrum purus nunc et enim. Quisque eu varius enim, eget volutpat augue.
     </p>
   </div>
   `;
