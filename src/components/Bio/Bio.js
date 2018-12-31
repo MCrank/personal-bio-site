@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import bioData from '../../data/bioData';
-import './MyBio.scss';
+import './Bio.scss';
 
 const bioStringBuilder = () => {
   let bioDomString = '';
