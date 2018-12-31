@@ -9,7 +9,7 @@ import navBarEvents from './events/navBarEvents';
 import bckgrndVideo from './img/clouds-small.mp4';
 import headShot from './img/marco.jpg';
 
-import Bio from './components/Bio/Bio';
+import Bio from './components/MyBio/MyBio';
 import projects from './components/Projects/Projects';
 import tech from './components/Tech/Tech';
 
