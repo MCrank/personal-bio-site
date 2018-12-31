@@ -9,7 +9,6 @@ const techBuilder = (techArr) => {
   <h1>Technologies</h1>
   <div class="container">
       <div class="row justify-content-around align-items-center">
-
   `;
   techArr.forEach((tech) => {
     techDomString += `
@@ -21,7 +20,6 @@ const techBuilder = (techArr) => {
     `;
   });
   techDomString += `
-
       </div>
     </div>
   `;
