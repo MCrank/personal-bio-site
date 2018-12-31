@@ -1,22 +1,29 @@
 {
-  "projects": [
-    {
-      "title": "Cool Project",
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
-    },
-    {
-      "title": "Cool Project",
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": false,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
-    }
-  ]
+  "project1": {
+    "title": "Developer ++",
+    "screenshot": "https://github.com/MCrank/dev-plus-plus/blob/master/screenshot/Screenshot.jpg",
+    "description": "This homework project was built to test our skills in using React in addition to all our previous lessons. We were tasked with building a developer resource tracking portal with the following requirements.",
+    "technologiesUsed": "React, Bootstrap, React-Strap, Firebase, Recharts, ES6 JavaScript, HTML, CSS(Sass), Version Control with Github",
+    "available": true,
+    "url": "https://mc-dev-plus-plus.firebaseapp.com/",
+    "githubUrl": "https://github.com/MCrank/dev-plus-plus"
+  },
+  "project2": {
+    "title": "Nutshell (Messages and Navbar)",
+    "screenshot": "https://github.com/nss-evening-cohort-8/nutshell-mongongos/blob/master/src/styles/Nutshell.png",
+    "description": "This project was a group effort to create a single web page application with multiple components. Each team member had to write all the code for one component. All of the components had to include complete CRUD on their data collections.",
+    "technologiesUsed": "HTML, CSS(Sass), ES6 JavaScript, Bootstrap 4, Webpack, Firebase, Version Control with Github",
+    "available": true,
+    "url": "https://nutshell-mongos.firebaseapp.com/",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-mongongos"
+  },
+  "project3": {
+    "title": "Pet Adoptions",
+    "screenshot": "https://github.com/MCrank/pet-adoptions/blob/master/screenshot/no_filter.PNG",
+    "description": "TWith this project we were tasked with building a pet adoption website leveraging ES6 Modules and XHR requests to pull JSON data in from a file.",
+    "technologiesUsed": "HTML, CSS, ES6 Modules JavaScript, Bootstrap 4, JQuery, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/MCrank/pet-adoptions",
+    "githubUrl": "https://github.com/MCrank/pet-adoptions"
+  }
 }
