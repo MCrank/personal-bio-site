@@ -1,74 +1,72 @@
 {
-  "technologies": {
-    "tech1": {
-      "name": "javascript",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      "imgName": "javascript-img"
-    },
-    "tech2": {
-      "name": "html",
-      "url": "https://www.w3.org/TR/html5/",
-      "imgName": "html-img"
-    },
-    "tech3": {
-      "name": "css",
-      "url": "https://www.w3.org/Style/CSS/Overview.en.html",
-      "imgName": "css-img"
-    },
-    "tech4": {
-      "name": "jquery",
-      "url": "https://jquery.com/",
-      "imgName": "jquery-img"
-    },
-    "tech5": {
-      "name": "bootstrap",
-      "url": "http://getbootstrap.com/",
-      "imgName": "javascript-img"
-    },
-    "tech6": {
-      "name": "git",
-      "url": "https://git-scm.com/",
-      "imgName": "git-img"
-    },
-    "tech7": {
-      "name": "github",
-      "url": "https://github.com/",
-      "imgName": "github-img"
-    },
-    "tech8": {
-      "name": "sass",
-      "url": "http://sass-lang.com/",
-      "imgName": "sass-img"
-    },
-    "tech9": {
-      "name": "npm",
-      "url": "https://www.npmjs.com/",
-      "imgName": "npm-img"
-    },
-    "tech10": {
-      "name": "webpack",
-      "url": "https://webpack.js.org/",
-      "imgName": "webpack-img"
-    },
-    "tech11": {
-      "name": "react",
-      "url": "https://reactjs.org/",
-      "imgName": "react-img"
-    },
-    "tech12": {
-      "name": "firebase",
-      "url": "https://console.firebase.google.com/",
-      "imgName": "firebase-img"
-    },
-    "tech13": {
-      "name": "vscode",
-      "url": "https://code.visualstudio.com/",
-      "imgName": "vscode-img"
-    },
-    "tech14": {
-      "name": "csharp",
-      "url": "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/",
-      "imgName": "csharp-img"
-    }
+  "tech1": {
+    "name": "javascript",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "imgName": "javascript-img"
+  },
+  "tech2": {
+    "name": "html",
+    "url": "https://www.w3.org/TR/html5/",
+    "imgName": "html-img"
+  },
+  "tech3": {
+    "name": "css",
+    "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+    "imgName": "css-img"
+  },
+  "tech4": {
+    "name": "jquery",
+    "url": "https://jquery.com/",
+    "imgName": "jquery-img"
+  },
+  "tech5": {
+    "name": "bootstrap",
+    "url": "http://getbootstrap.com/",
+    "imgName": "javascript-img"
+  },
+  "tech6": {
+    "name": "git",
+    "url": "https://git-scm.com/",
+    "imgName": "git-img"
+  },
+  "tech7": {
+    "name": "github",
+    "url": "https://github.com/",
+    "imgName": "github-img"
+  },
+  "tech8": {
+    "name": "sass",
+    "url": "http://sass-lang.com/",
+    "imgName": "sass-img"
+  },
+  "tech9": {
+    "name": "npm",
+    "url": "https://www.npmjs.com/",
+    "imgName": "npm-img"
+  },
+  "tech10": {
+    "name": "webpack",
+    "url": "https://webpack.js.org/",
+    "imgName": "webpack-img"
+  },
+  "tech11": {
+    "name": "react",
+    "url": "https://reactjs.org/",
+    "imgName": "react-img"
+  },
+  "tech12": {
+    "name": "firebase",
+    "url": "https://console.firebase.google.com/",
+    "imgName": "firebase-img"
+  },
+  "tech13": {
+    "name": "vscode",
+    "url": "https://code.visualstudio.com/",
+    "imgName": "vscode-img"
+  },
+  "tech14": {
+    "name": "csharp",
+    "url": "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/",
+    "imgName": "csharp-img"
   }
 }
