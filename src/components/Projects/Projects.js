@@ -4,6 +4,9 @@ import projectData from '../../helpers/data/projectData';
 
 const projectBuilder = (projects) => {
   let projDomString = '';
+  projDomString += `
+  <h1>Projects</h1>
+  `;
   projects.forEach((project) => {
     projDomString += `
   <div class="card mb-3" style="width: 50rem;">
