@@ -1,8 +1,12 @@
 .jumbotron {
-  height: 100vh;
-  min-height: 600px;
+  // min-height: 100vh;
+  // min-height: 600px;
 }
 #bio-container {
   color: rgb(33, 37, 41);
   background: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron p {
+  font-size: 1.1rem;
 }

@@ -16,7 +16,6 @@ const getProjects = () => new Promise((resolve, reject) => {
           projectsArray.push(newProject);
         });
       }
-      console.log('Projects Axios', results.data);
       resolve(projectsArray);
     })
     .catch(err => reject(console.error('An error occured retrieving projects', err)));

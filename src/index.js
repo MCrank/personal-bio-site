@@ -10,7 +10,7 @@ import bckgrndVideo from './img/clouds-small.mp4';
 import headShot from './img/marco.jpg';
 import webpack from './img/webpack.svg';
 
-import bio from './components/Bio/Bio';
+import Bio from './components/Bio/Bio';
 import projects from './components/Projects/Projects';
 
 $('#video-bkgrnd').attr('src', bckgrndVideo);
@@ -20,9 +20,8 @@ $('#webpack-logo').attr('src', webpack);
 const initApp = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
   navBarEvents.navBarEvents();
-  bio.bioStringBuilder();
+  Bio.bioStringBuilder();
   projects.getProjectData();
-  // bio.getBioData();
 };
 
 initApp();
