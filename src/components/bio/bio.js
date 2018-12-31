@@ -1,12 +1,12 @@
 import $ from 'jquery';
 import bioData from '../../data/bioData';
-import './bio.scss';
+import './Bio.scss';
 
 const bioStringBuilder = () => {
   let bioDomString = '';
   bioDomString = `
   <div class="jumbotron container text-white" id="bio-container">
-    <h1 class="display-4 text-white">Who Am I</h1>
+    <h1 class="text-white text-center">About Me</h1>
     <hr class="my-4 border border-white" />
     <p class="lead">
       Growing up as an "Army brat", I had the pleasure of staying in various locations around the world; finally settling in Clarksville, TN after my Dad's retirement from the Army.
