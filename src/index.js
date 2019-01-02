@@ -7,7 +7,7 @@ import './index.scss';
 
 import navBarEvents from './events/navBarEvents';
 import bckgrndVideo from './img/clouds-small.mp4';
-import headShot from './img/marco.jpg';
+import headShot from './img/marco.jpeg';
 
 import Bio from './components/Bio/Bio';
 import projects from './components/Projects/Projects';
