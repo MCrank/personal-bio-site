@@ -19,11 +19,13 @@ const projectBuilder = (projects) => {
   project.technologiesUsed
 }</h6>
           <p class="card-text text-white">${project.description}</p>
-          <div class="card-footer">
+          <div class="card-footer text-center">
             <a href="${
   project.githubUrl
 }" target="_blank" class="btn btn-primary">View on Github</a>
-            <a href="${project.url}" target="_blank" class="btn btn-primary">View Live Demo</a>
+            <a href="${project.url}" target="_blank" class="btn btn-primary">${
+  project.title === 'Pet Adoptions' ? 'Coming Soon' : 'View Live Demo'
+}</a>
           </div>
         </div>
       </div>
