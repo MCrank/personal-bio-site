@@ -10,7 +10,6 @@ const projectBuilder = (projects) => {
   `;
   projects.forEach((project) => {
     projDomString += `
-
       <div class="card mb-3" style="width: 50rem;">
         <img src="${project.screenshot}" class="card-img-top" alt="...">
         <div class="card-body">
@@ -28,7 +27,6 @@ const projectBuilder = (projects) => {
           </div>
         </div>
       </div>
-
   `;
   });
   projDomString += `
