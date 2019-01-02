@@ -30,7 +30,6 @@ const getTechData = () => {
   techData
     .getTechDetails()
     .then((techArr) => {
-      console.log(techArr);
       techBuilder(techArr);
     })
     .catch(err => console.error('An error occured retrieveing tech data', err));

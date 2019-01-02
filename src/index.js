@@ -12,6 +12,7 @@ import headShot from './img/marco.jpg';
 import Bio from './components/Bio/Bio';
 import projects from './components/Projects/Projects';
 import tech from './components/Tech/Tech';
+import connect from './components/Connect/Connect';
 
 $('#video-bkgrnd').attr('src', bckgrndVideo);
 $('#head-shot').attr('src', headShot);
@@ -22,6 +23,7 @@ const initApp = () => {
   Bio.bioStringBuilder();
   projects.getProjectData();
   tech.getTechData();
+  connect.connectBuilder();
 };
 
 initApp();
